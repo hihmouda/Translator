@@ -21,8 +21,6 @@ import UIKit
     
     @objc optional func didChangeModels()
     
-    @objc optional func moveToNext(_ index: IndexPath)
-    
     @objc optional func scrollToIndexPath(_ index: IndexPath)
     
     @objc optional func endEditing()
