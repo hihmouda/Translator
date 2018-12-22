@@ -59,37 +59,6 @@ extension BaseUITableViewController: BaseListDelegate {
         self.effectiveTableView?.scrollToRow(at: index, at: .top, animated: true)
     }
     
-//    func moveToNext(_ index: IndexPath) {
-//
-//        var nextIndex = IndexPath(item: index.row+1, section: index.section)
-//
-//        // get number for rows in given index section
-//        let numOfRows = self.effectiveTableView?.numberOfRows(inSection: index.section) ?? 0
-//
-//        // if given row is the last in the given section, move to next section
-//        if index.row >= numOfRows - 1 {
-//
-//            nextIndex = IndexPath(item: 0, section: index.section+1)
-//        }
-//
-//        // Scroll to index so that it's visible, then get textField focus
-//        if !isVisible(nextIndex) {
-//
-//            self.effectiveTableView?.scrollToRow(at: index, at: .top, animated: true)
-//        }
-//
-//        if let nextCell = self.effectiveTableView?.cellForRow(at: nextIndex){
-//
-//            if let nextTextCell = nextCell  as? SimpleTextFieldCell {
-//
-//                let _ = nextTextCell.becomeFirstResponder()
-//            } else {
-//
-//                moveToNext(nextIndex)
-//            }
-//        }
-//    }
-    
     func endEditing() {
         
         self.view.endEditing(true)
