@@ -1,5 +1,5 @@
 PODS:
-  - ObjectMapper (3.4.1)
+  - ObjectMapper (3.4.2)
   - SnapKit (4.0.1)
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ SPEC REPOS:
     - SnapKit
 
 SPEC CHECKSUMS:
-  ObjectMapper: 5311bd50ca732930959e7ca1a2de43ab823a5ced
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
 
 PODFILE CHECKSUM: 96dfeae3775d49d0f62c6ac93b0aff38a185137d
