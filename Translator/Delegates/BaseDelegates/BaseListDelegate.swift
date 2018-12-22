@@ -12,8 +12,6 @@ import UIKit
 @objc protocol BaseListDelegate: class {
     
     @objc optional func didChangeModelAtIndex(_ index: IndexPath, withRowAnimation animation: UITableView.RowAnimation)
-//
-//    @objc optional func didChangeLoadingState(_ state: LoadingState, completion: (()->())?)
     
     @objc optional func didChangeModelHeightAtIndex(_ index: IndexPath)
     
